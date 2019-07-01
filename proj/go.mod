@@ -1,4 +1,4 @@
-module stellarstation.com/star-receiver
+module example.com/proj
 
 require (
 	example.com/api v0.0.0
