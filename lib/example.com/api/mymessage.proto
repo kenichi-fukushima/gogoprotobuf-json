@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package example.api;
+option go_package = "example.com/api";
+
+message MyMessage {
+    enum MyEnum {
+        CASE0 = 0;
+        CASE1 = 1;
+        CASE2 = 2;
+        CASE3 = 3;
+        CASE4 = 4;
+        CASE5 = 5;
+        CASE6 = 6;
+    }
+    MyEnum e = 15;
+}
